@@ -1,5 +1,5 @@
 //
-//  Health.swift
+//  EngViewController.swift
 //  ChatGPT
 //
 //  Created by Amani Aldahmash on 17/03/2023.
@@ -7,12 +7,13 @@
 
 import UIKit
 
-class BusViewController: UIViewController,UITableViewDelegate, UITableViewDataSource{
+class EngViewController: UIViewController, UITableViewDelegate ,UITableViewDataSource {
     
     
     @IBOutlet weak var tableView: UITableView!
-    let BusModelList: [BusModel] = BusModel.getMock()
-    //
+    
+ let EngModelList: [EngModel] = EngModel.getMock()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -41,12 +42,12 @@ class BusViewController: UIViewController,UITableViewDelegate, UITableViewDataSo
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return  BusModelList.count
+        return  EngModelList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "healthTableViewCell", for: indexPath) as! HealthTableViewCell
-        let  busModel  =  BusModelList[indexPath.row]
+        let  busModel  =  EngModelList[indexPath.row]
         var healthModel = HealthModel(title: busModel.title, image: busModel.image, url: busModel.url)
         cell.setupUI(healthModel)
         cell.loacationButton.addTarget(self, action: #selector(connected(sender:)), for: .touchUpInside)
@@ -59,7 +60,7 @@ class BusViewController: UIViewController,UITableViewDelegate, UITableViewDataSo
     
     @objc func connected(sender: UIButton){
         let buttonTag = sender.tag
-        UIApplication.shared.open(URL(string: BusModelList[buttonTag].url)! as  URL, options:  [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: EngModelList[buttonTag].url)! as  URL, options:  [:], completionHandler: nil)
         // open web healthList [sender.tag]
     
     }

@@ -14,6 +14,11 @@
 		A24D6C7029C4AF04006CA5F8 /* BusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D6C6F29C4AF03006CA5F8 /* BusModel.swift */; };
 		A24D6C7629C4B05E006CA5F8 /* BusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D6C7529C4B05E006CA5F8 /* BusViewController.swift */; };
 		A25AB01729C490C1007AC1E0 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25AB01629C490C1007AC1E0 /* HealthViewController.swift */; };
+		A2AB955E29C4BCE700BA698F /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 53DE601D29C4A26D0023C62A /* OpenAISwift */; };
+		A2AB956429C4CA8700BA698F /* ITModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB956329C4CA8700BA698F /* ITModel.swift */; };
+		A2AB956629C4CAA100BA698F /* EngModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB956529C4CAA100BA698F /* EngModel.swift */; };
+		A2AB956829C4CAB900BA698F /* EngViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB956729C4CAB900BA698F /* EngViewController.swift */; };
+		A2AB956A29C4D97D00BA698F /* ITViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB956929C4D97D00BA698F /* ITViewController.swift */; };
 		F0A04DE729C3BBF600AC7A52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */; };
 		F0A04DE929C3BD7300AC7A52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0A04DE829C3BD7300AC7A52 /* GoogleService-Info.plist */; };
 		F0A04DEC29C3BE2200AC7A52 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0A04DEB29C3BE2200AC7A52 /* FirebaseAnalytics */; };
@@ -85,6 +90,10 @@
 		A24D6C6F29C4AF03006CA5F8 /* BusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusModel.swift; sourceTree = "<group>"; };
 		A24D6C7529C4B05E006CA5F8 /* BusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewController.swift; sourceTree = "<group>"; };
 		A25AB01629C490C1007AC1E0 /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
+		A2AB956329C4CA8700BA698F /* ITModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITModel.swift; sourceTree = "<group>"; };
+		A2AB956529C4CAA100BA698F /* EngModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngModel.swift; sourceTree = "<group>"; };
+		A2AB956729C4CAB900BA698F /* EngViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngViewController.swift; sourceTree = "<group>"; };
+		A2AB956929C4D97D00BA698F /* ITViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITViewController.swift; sourceTree = "<group>"; };
 		F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ChatGPT/LoginViewController.swift; sourceTree = "<group>"; };
 		F0A04DE829C3BD7300AC7A52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0A04E2629C3BF1700AC7A52 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -127,7 +136,7 @@
 				F0A04E1729C3BEB100AC7A52 /* FirebaseInstallations in Frameworks */,
 				F0A04E1129C3BEB100AC7A52 /* FirebaseFunctionsCombine-Community in Frameworks */,
 				F0A04E0B29C3BEB100AC7A52 /* FirebaseFirestoreCombine-Community in Frameworks */,
-				53DE601E29C4A26D0023C62A /* OpenAISwift in Frameworks */,
+				A2AB955E29C4BCE700BA698F /* OpenAISwift in Frameworks */,
 				F0A04E0329C3BEB100AC7A52 /* FirebaseDatabase in Frameworks */,
 				F0A04E1D29C3BEB100AC7A52 /* FirebasePerformance in Frameworks */,
 				F0A04DF929C3BEB100AC7A52 /* FirebaseAppCheck in Frameworks */,
@@ -189,10 +198,27 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		A2AB955F29C4C9F900BA698F /* IT */ = {
+			isa = PBXGroup;
+			children = (
+				A2AB956329C4CA8700BA698F /* ITModel.swift */,
+				A2AB956929C4D97D00BA698F /* ITViewController.swift */,
+			);
+			path = IT;
+			sourceTree = "<group>";
+		};
+		A2AB956029C4CA0B00BA698F /* Engineering */ = {
+			isa = PBXGroup;
+			children = (
+				A2AB956529C4CAA100BA698F /* EngModel.swift */,
+				A2AB956729C4CAB900BA698F /* EngViewController.swift */,
+			);
+			path = Engineering;
+			sourceTree = "<group>";
+		};
 		F0F88D9029C39430007ABAAA = {
 			isa = PBXGroup;
 			children = (
-				53EE564E29C4A48F0062FDF3 /* ViewModel.swift */,
 				F0A04E2829C3BF4700AC7A52 /* Global.swift */,
 				F0A04E2629C3BF1700AC7A52 /* RegisterViewController.swift */,
 				F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */,
@@ -216,6 +242,8 @@
 		F0F88D9B29C39430007ABAAA /* ChatGPT */ = {
 			isa = PBXGroup;
 			children = (
+				A2AB956029C4CA0B00BA698F /* Engineering */,
+				A2AB955F29C4C9F900BA698F /* IT */,
 				A24D6C6929C4ABC9006CA5F8 /* Bus */,
 				A25AB01829C49A6A007AC1E0 /* Health */,
 				F0F88D9C29C39430007ABAAA /* AppDelegate.swift */,
@@ -423,10 +451,13 @@
 				F0A04E2929C3BF4700AC7A52 /* Global.swift in Sources */,
 				F0A04DE729C3BBF600AC7A52 /* LoginViewController.swift in Sources */,
 				A24D6C6429C49CB7006CA5F8 /* HealthTableViewCell.swift in Sources */,
+				A2AB956A29C4D97D00BA698F /* ITViewController.swift in Sources */,
 				F0F88DCD29C3947E007ABAAA /* ChatGPTAPI.swift in Sources */,
 				A24D6C7029C4AF04006CA5F8 /* BusModel.swift in Sources */,
 				A25AB01729C490C1007AC1E0 /* HealthViewController.swift in Sources */,
+				A2AB956429C4CA8700BA698F /* ITModel.swift in Sources */,
 				F0A04E2729C3BF1700AC7A52 /* RegisterViewController.swift in Sources */,
+				A2AB956629C4CAA100BA698F /* EngModel.swift in Sources */,
 				A24D6C7629C4B05E006CA5F8 /* BusViewController.swift in Sources */,
 				F0F88DA129C39430007ABAAA /* ViewController.swift in Sources */,
 				A24D6C6729C4A1BC006CA5F8 /* HealthModel.swift in Sources */,
@@ -434,6 +465,7 @@
 				F0F88D9D29C39430007ABAAA /* AppDelegate.swift in Sources */,
 				F0F88DCF29C39492007ABAAA /* ChatGPTAPIModels.swift in Sources */,
 				F0F88D9F29C39430007ABAAA /* SceneDelegate.swift in Sources */,
+				A2AB956829C4CAB900BA698F /* EngViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

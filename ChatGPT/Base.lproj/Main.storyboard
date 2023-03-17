@@ -885,10 +885,10 @@
             </objects>
             <point key="canvasLocation" x="8076.811594202899" y="-711.16071428571422"/>
         </scene>
-        <!--Bus View Controller-->
+        <!--View Controller-->
         <scene sceneID="74O-LE-Aoy">
             <objects>
-                <viewController id="wEv-dw-2dT" customClass="BusViewController" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wEv-dw-2dT" customClass="ITViewController" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fut-pv-9kS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -933,17 +933,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="ew8-eS-F0l"/>
                     <connections>
-                        <outlet property="tableView" destination="hB4-Wb-izc" id="aVw-gZ-IOP"/>
+                        <outlet property="tableView" destination="hB4-Wb-izc" id="hd5-HX-I0v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Md-0J-Zmu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9884.0579710144939" y="33.482142857142854"/>
         </scene>
-        <!--Bus View Controller-->
+        <!--Eng View Controller-->
         <scene sceneID="jLw-1J-kul">
             <objects>
-                <viewController id="mPb-T8-DhI" customClass="BusViewController" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mPb-T8-DhI" customClass="EngViewController" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ccB-Gf-1Is">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -988,7 +988,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="FzG-lo-OeW"/>
                     <connections>
-                        <outlet property="tableView" destination="qEt-qa-V90" id="yoU-h0-k6m"/>
+                        <outlet property="tableView" destination="qEt-qa-V90" id="tOm-va-Exk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45J-4u-CIn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
