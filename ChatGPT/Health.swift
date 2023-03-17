@@ -15,7 +15,36 @@ class Health: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func l1(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string:"www.google.com")! as  URL, options:  [:], completionHandler: nil)
+        
+    }
+    
+    @IBAction func l2(_ sender: Any) {
+        
+        
+        UIApplication.shared.open(URL(string:"www.google.com")! as  URL, options:  [:], completionHandler: nil)
+    }
+    
+    
+    @IBAction func l3(_ sender: Any) {
+        
+        
+        UIApplication.shared.open(URL(string:"www.google.com")! as  URL, options:  [:], completionHandler: nil)
+    }
+    
+    
+    @IBAction func l4(_ sender: Any) {
+        
+        
+        UIApplication.shared.open(URL(string:"www.google.com")! as  URL, options:  [:], completionHandler: nil)
+    }
+    
+    @IBAction func l5(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string:"www.google.com")! as  URL, options:  [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 
