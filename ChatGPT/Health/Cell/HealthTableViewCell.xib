@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,7 +19,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7xz-IT-fNN">
                         <rect key="frame" x="0.0" y="0.0" width="350" height="149"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Certified Professional in Healthcare Quality (CPHQ)" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="py4-Pw-iJe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Certified Professional in Healthcare Quality (CPHQ)" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="py4-Pw-iJe">
                                 <rect key="frame" x="10" y="44" width="200" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -33,19 +32,19 @@
                                     <constraint firstAttribute="height" constant="100" id="fJz-cG-83h"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJ9-gz-ohk">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJ9-gz-ohk">
                                 <rect key="frame" x="1" y="91" width="100" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="DEw-dW-0pu"/>
                                 </constraints>
                                 <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="menucard" catalog="system" subtitle="More">
+                                <buttonConfiguration key="configuration" style="plain" image="menucard" catalog="system" subtitle="للمزيد من المعلومات   ">
                                     <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="py4-Pw-iJe" firstAttribute="leading" secondItem="7xz-IT-fNN" secondAttribute="leading" constant="10" id="3al-dZ-xca"/>
                             <constraint firstItem="9Mf-pZ-csi" firstAttribute="leading" secondItem="py4-Pw-iJe" secondAttribute="trailing" constant="20" id="EPP-6t-ZOi"/>
@@ -77,8 +76,5 @@
     <resources>
         <image name="NBPHE_500x500 (1)" width="2084" height="2085"/>
         <image name="menucard" catalog="system" width="107" height="128"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

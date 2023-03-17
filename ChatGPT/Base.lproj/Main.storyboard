@@ -568,7 +568,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xuA-kk-jcx"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" id="UL2-k4-g9g"/>
                 </viewController>
@@ -593,7 +593,7 @@
                                 <rect key="frame" x="250" y="143.5" width="144" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQ8-79-sLk">
@@ -607,7 +607,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="الصحة">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -629,7 +629,8 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="إدارة الأعمال">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -651,7 +652,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="الهندسة">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -673,7 +674,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="تقنية المعلومات">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -686,7 +687,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="T64-Cd-pNJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="newspaper" catalog="system" id="RPx-3h-CEi"/>
                 </viewController>
@@ -782,7 +783,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ISR-gv-VJ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5928" y="780"/>
+            <point key="canvasLocation" x="6304" y="973"/>
         </scene>
         <!--Health-->
         <scene sceneID="S57-BP-7L6">
@@ -801,7 +802,7 @@
                                 <rect key="frame" x="302" y="137.5" width="92" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wcn-yV-Exy">
@@ -809,7 +810,7 @@
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-eI-PlZ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="579"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <sections/>
                                     </tableView>
                                 </subviews>
@@ -822,7 +823,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCf-te-ieG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wcn-yV-Exy" firstAttribute="leading" secondItem="gCf-te-ieG" secondAttribute="leading" id="1PQ-c7-40x"/>
                             <constraint firstItem="wcn-yV-Exy" firstAttribute="top" secondItem="gCf-te-ieG" secondAttribute="top" constant="195" id="4SE-Oo-k4J"/>
@@ -874,7 +875,7 @@
                                 <rect key="frame" x="220" y="137.5" width="174" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTy-4B-iIN">
@@ -882,7 +883,7 @@
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0Mb-2c-HBV">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="579"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <sections/>
                                     </tableView>
                                 </subviews>
@@ -895,7 +896,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fco-m9-L9r"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fco-m9-L9r" firstAttribute="trailing" secondItem="WTy-4B-iIN" secondAttribute="trailing" id="Uok-c9-mxx"/>
                             <constraint firstItem="WTy-4B-iIN" firstAttribute="bottom" secondItem="fco-m9-L9r" secondAttribute="bottom" id="ZRz-AJ-n4p"/>
@@ -947,7 +948,7 @@
                                 <rect key="frame" x="179" y="137.5" width="215" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLA-2b-M3X">
@@ -955,7 +956,7 @@
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hB4-Wb-izc">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="579"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <sections/>
                                     </tableView>
                                 </subviews>
@@ -968,7 +969,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Kw-Pa-stp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XLA-2b-M3X" firstAttribute="leading" secondItem="0Kw-Pa-stp" secondAttribute="leading" id="Oxi-Xo-HGb"/>
                             <constraint firstItem="XLA-2b-M3X" firstAttribute="bottom" secondItem="0Kw-Pa-stp" secondAttribute="bottom" id="c6v-Ql-cQQ"/>
@@ -1002,7 +1003,7 @@
                                 <rect key="frame" x="285" y="137.5" width="109" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vEg-6I-LWd">
@@ -1010,7 +1011,7 @@
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qEt-qa-V90">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="579"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <sections/>
                                     </tableView>
                                 </subviews>
@@ -1023,7 +1024,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uu9-jt-GMA"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vEg-6I-LWd" firstAttribute="bottom" secondItem="uu9-jt-GMA" secondAttribute="bottom" id="DI4-hc-SIw"/>
                             <constraint firstItem="uu9-jt-GMA" firstAttribute="trailing" secondItem="vEg-6I-LWd" secondAttribute="trailing" id="Exg-qs-Zbs"/>
