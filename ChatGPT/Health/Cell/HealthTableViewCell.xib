@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="149" id="KGk-i7-Jjw" customClass="HealthTableViewCell" customModule="ChatGPT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="149"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7xz-IT-fNN">
+                        <rect key="frame" x="0.0" y="0.0" width="350" height="149"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Certified Professional in Healthcare Quality (CPHQ)" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="py4-Pw-iJe">
+                                <rect key="frame" x="10" y="44" width="200" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NBPHE_500x500 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="9Mf-pZ-csi">
+                                <rect key="frame" x="230" y="24.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="OeW-1e-HYr"/>
+                                    <constraint firstAttribute="height" constant="100" id="fJz-cG-83h"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJ9-gz-ohk">
+                                <rect key="frame" x="1" y="91" width="100" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="DEw-dW-0pu"/>
+                                </constraints>
+                                <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="menucard" catalog="system" subtitle="More">
+                                    <attributedString key="attributedTitle"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="py4-Pw-iJe" firstAttribute="leading" secondItem="7xz-IT-fNN" secondAttribute="leading" constant="10" id="3al-dZ-xca"/>
+                            <constraint firstItem="9Mf-pZ-csi" firstAttribute="leading" secondItem="py4-Pw-iJe" secondAttribute="trailing" constant="20" id="EPP-6t-ZOi"/>
+                            <constraint firstItem="WJ9-gz-ohk" firstAttribute="leading" secondItem="7xz-IT-fNN" secondAttribute="leading" constant="1" id="IBO-Vx-Ug9"/>
+                            <constraint firstAttribute="bottom" secondItem="WJ9-gz-ohk" secondAttribute="bottom" constant="27" id="RT0-Xj-9fb"/>
+                            <constraint firstAttribute="trailing" secondItem="9Mf-pZ-csi" secondAttribute="trailing" constant="20" id="Tbe-cW-pbf"/>
+                            <constraint firstItem="py4-Pw-iJe" firstAttribute="top" secondItem="7xz-IT-fNN" secondAttribute="top" constant="44" id="VkH-Yl-e1R"/>
+                            <constraint firstItem="WJ9-gz-ohk" firstAttribute="top" secondItem="py4-Pw-iJe" secondAttribute="bottom" constant="8.5" id="g45-nk-CET"/>
+                            <constraint firstItem="9Mf-pZ-csi" firstAttribute="centerY" secondItem="7xz-IT-fNN" secondAttribute="centerY" id="qgD-I0-2xu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7xz-IT-fNN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GMD-ec-cMp"/>
+                    <constraint firstAttribute="bottom" secondItem="7xz-IT-fNN" secondAttribute="bottom" id="gjM-q5-0l8"/>
+                    <constraint firstAttribute="trailing" secondItem="7xz-IT-fNN" secondAttribute="trailing" id="tYo-vl-uuB"/>
+                    <constraint firstItem="7xz-IT-fNN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yWx-W7-j1j"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageUIView" destination="9Mf-pZ-csi" id="VoL-h1-XCv"/>
+                <outlet property="loacationButton" destination="WJ9-gz-ohk" id="viH-Jh-wEo"/>
+                <outlet property="titleLabel" destination="py4-Pw-iJe" id="iRi-pc-haS"/>
+            </connections>
+            <point key="canvasLocation" x="115.94202898550725" y="91.40625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="NBPHE_500x500 (1)" width="2084" height="2085"/>
+        <image name="menucard" catalog="system" width="107" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

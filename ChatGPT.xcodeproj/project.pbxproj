@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		34FE414E29C46DE1004C4AFA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE414D29C46DE1004C4AFA /* ListViewController.swift */; };
-		A25AB01729C490C1007AC1E0 /* Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25AB01629C490C1007AC1E0 /* Health.swift */; };
+		A24D6C6429C49CB7006CA5F8 /* HealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D6C6229C49CB7006CA5F8 /* HealthTableViewCell.swift */; };
+		A24D6C6529C49CB7006CA5F8 /* HealthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24D6C6329C49CB7006CA5F8 /* HealthTableViewCell.xib */; };
+		A24D6C6729C4A1BC006CA5F8 /* HealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D6C6629C4A1BC006CA5F8 /* HealthModel.swift */; };
+		A25AB01729C490C1007AC1E0 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25AB01629C490C1007AC1E0 /* HealthViewController.swift */; };
 		F0A04DE729C3BBF600AC7A52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */; };
 		F0A04DE929C3BD7300AC7A52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0A04DE829C3BD7300AC7A52 /* GoogleService-Info.plist */; };
 		F0A04DEC29C3BE2200AC7A52 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0A04DEB29C3BE2200AC7A52 /* FirebaseAnalytics */; };
@@ -74,7 +77,10 @@
 
 /* Begin PBXFileReference section */
 		34FE414D29C46DE1004C4AFA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		A25AB01629C490C1007AC1E0 /* Health.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
+		A24D6C6229C49CB7006CA5F8 /* HealthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTableViewCell.swift; sourceTree = "<group>"; };
+		A24D6C6329C49CB7006CA5F8 /* HealthTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthTableViewCell.xib; sourceTree = "<group>"; };
+		A24D6C6629C4A1BC006CA5F8 /* HealthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModel.swift; sourceTree = "<group>"; };
+		A25AB01629C490C1007AC1E0 /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
 		F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ChatGPT/LoginViewController.swift; sourceTree = "<group>"; };
 		F0A04DE829C3BD7300AC7A52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0A04E2629C3BF1700AC7A52 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +156,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A25AB01829C49A6A007AC1E0 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				A25AB01929C49A90007AC1E0 /* Cell */,
+				A25AB01629C490C1007AC1E0 /* HealthViewController.swift */,
+				A24D6C6629C4A1BC006CA5F8 /* HealthModel.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		A25AB01929C49A90007AC1E0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A24D6C6229C49CB7006CA5F8 /* HealthTableViewCell.swift */,
+				A24D6C6329C49CB7006CA5F8 /* HealthTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		F0F88D9029C39430007ABAAA = {
 			isa = PBXGroup;
 			children = (
@@ -176,13 +201,13 @@
 		F0F88D9B29C39430007ABAAA /* ChatGPT */ = {
 			isa = PBXGroup;
 			children = (
+				A25AB01829C49A6A007AC1E0 /* Health */,
 				F0F88D9C29C39430007ABAAA /* AppDelegate.swift */,
 				F0F88DCE29C39492007ABAAA /* ChatGPTAPIModels.swift */,
 				F0F88DCC29C3947E007ABAAA /* ChatGPTAPI.swift */,
 				F0F88D9E29C39430007ABAAA /* SceneDelegate.swift */,
 				F0F88DA029C39430007ABAAA /* ViewController.swift */,
 				F0F88DA229C39430007ABAAA /* Main.storyboard */,
-				A25AB01629C490C1007AC1E0 /* Health.swift */,
 				34FE414D29C46DE1004C4AFA /* ListViewController.swift */,
 				F0F88DA529C39431007ABAAA /* Assets.xcassets */,
 				F0F88DA729C39431007ABAAA /* LaunchScreen.storyboard */,
@@ -348,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24D6C6529C49CB7006CA5F8 /* HealthTableViewCell.xib in Resources */,
 				F0F88DA929C39431007ABAAA /* LaunchScreen.storyboard in Resources */,
 				F0F88DA629C39431007ABAAA /* Assets.xcassets in Resources */,
 				F0F88DA429C39430007ABAAA /* Main.storyboard in Resources */,
@@ -378,10 +404,12 @@
 			files = (
 				F0A04E2929C3BF4700AC7A52 /* Global.swift in Sources */,
 				F0A04DE729C3BBF600AC7A52 /* LoginViewController.swift in Sources */,
+				A24D6C6429C49CB7006CA5F8 /* HealthTableViewCell.swift in Sources */,
 				F0F88DCD29C3947E007ABAAA /* ChatGPTAPI.swift in Sources */,
-				A25AB01729C490C1007AC1E0 /* Health.swift in Sources */,
+				A25AB01729C490C1007AC1E0 /* HealthViewController.swift in Sources */,
 				F0A04E2729C3BF1700AC7A52 /* RegisterViewController.swift in Sources */,
 				F0F88DA129C39430007ABAAA /* ViewController.swift in Sources */,
+				A24D6C6729C4A1BC006CA5F8 /* HealthModel.swift in Sources */,
 				34FE414E29C46DE1004C4AFA /* ListViewController.swift in Sources */,
 				F0F88D9D29C39430007ABAAA /* AppDelegate.swift in Sources */,
 				F0F88DCF29C39492007ABAAA /* ChatGPTAPIModels.swift in Sources */,

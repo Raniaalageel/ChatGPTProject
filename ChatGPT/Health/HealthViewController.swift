@@ -9,10 +9,20 @@ import UIKit
 
 class Health: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    let healthList: [HealthModel] = HealthModel.getMock()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupUI()
         // Do any additional setup after loading the view.
+    }
+    
+    func setupUI(){
+        let cellNib = UINib(nibName: "HealthTableViewCell", bundle: Bundle.main)
+        tableView.register(cellNib, forCellReuseIdentifier: "healthTableViewCell")
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
     @IBAction func l1(_ sender: Any) {
@@ -55,4 +65,32 @@ class Health: UIViewController {
     }
     */
 
+}
+
+extension Health: UITableViewDelegate, UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return  healthList.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "healthTableViewCell", for: indexPath) as! HealthTableViewCell
+        let healthModel  =  healthList[indexPath.row]
+        cell.setupUI(healthModel)
+        cell.loacationButton.addTarget(self, action: #selector(connected(sender:)), for: .touchUpInside)
+        //  id =1
+        cell.loacationButton.tag = indexPath.row
+
+        return cell
+    }
+    
+    
+    @objc func connected(sender: UIButton){
+        let buttonTag = sender.tag
+        UIApplication.shared.open(URL(string: healthList[buttonTag].url)! as  URL, options:  [:], completionHandler: nil)
+        // open web healthList [sender.tag]
+    }
+    
 }

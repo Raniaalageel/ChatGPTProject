@@ -750,201 +750,36 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wcn-yV-Exy">
-                                <rect key="frame" x="0.0" y="283" width="414" height="613"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wcn-yV-Exy">
+                                <rect key="frame" x="0.0" y="283" width="414" height="579"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-eI-PlZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="627"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-eI-PlZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="579"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="cYG-11-BxH">
-                                                <rect key="frame" x="0.0" y="44.5" width="414" height="120"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cYG-11-BxH" id="uhW-yS-VAZ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Certified Professional in Healthcare Quality (CPHQ)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHJ-b7-57I">
-                                                            <rect key="frame" x="22" y="9" width="281" height="65"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CPHQ_Seal_Logo_GOLD-copy-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="UnG-4k-5y0">
-                                                            <rect key="frame" x="311" y="9" width="103" height="100"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        </imageView>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-Oe-qeD">
-                                                            <rect key="frame" x="85" y="78" width="173" height="31"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="plain">
-                                                                <attributedString key="attributedTitle">
-                                                                    <fragment content="الانتقال للموقع"/>
-                                                                </attributedString>
-                                                            </buttonConfiguration>
-                                                            <connections>
-                                                                <action selector="l1:" destination="vUh-py-EMv" eventType="touchUpInside" id="fR6-du-Yg0"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="UHS-YR-ye1">
-                                                <rect key="frame" x="0.0" y="164.5" width="414" height="120"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UHS-YR-ye1" id="Agt-XB-9fe">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Certified Healthcare Facility Manager (CHFM)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ME-c0-C4n">
-                                                            <rect key="frame" x="-11" y="11" width="343" height="65"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="647927bc-b2bd-49eb-a2db-8424fdee66df-151215125404-thumbnail-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="YoP-IX-Fql">
-                                                            <rect key="frame" x="309" y="11" width="103" height="100"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        </imageView>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKO-wb-7uT">
-                                                            <rect key="frame" x="83" y="80" width="173" height="31"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="plain">
-                                                                <attributedString key="attributedTitle">
-                                                                    <fragment content="الانتقال للموقع"/>
-                                                                </attributedString>
-                                                            </buttonConfiguration>
-                                                            <connections>
-                                                                <action selector="l2:" destination="vUh-py-EMv" eventType="touchUpInside" id="BRM-Qy-VNG"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="gUv-iX-T7X">
-                                                <rect key="frame" x="0.0" y="284.5" width="414" height="120"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gUv-iX-T7X" id="f4z-sn-BCi">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Certified in Public Health (CPH)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65T-yk-gWc">
-                                                            <rect key="frame" x="20" y="9" width="281" height="65"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NBPHE_500x500 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Xxv-Pg-s8H">
-                                                            <rect key="frame" x="309" y="9" width="103" height="100"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        </imageView>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csb-BW-Gya">
-                                                            <rect key="frame" x="83" y="78" width="173" height="31"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="plain">
-                                                                <attributedString key="attributedTitle">
-                                                                    <fragment content="الانتقال للموقع"/>
-                                                                </attributedString>
-                                                            </buttonConfiguration>
-                                                            <connections>
-                                                                <action selector="l3:" destination="vUh-py-EMv" eventType="touchUpInside" id="eds-pe-Ibj"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="Wnf-ah-GJi">
-                                                <rect key="frame" x="0.0" y="404.5" width="414" height="120"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wnf-ah-GJi" id="bAk-wK-maE">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Certified Clinical Research Associate (CCRA)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cm6-3w-wT1">
-                                                            <rect key="frame" x="20" y="10" width="281" height="65"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CCRA" translatesAutoresizingMaskIntoConstraints="NO" id="8Em-6d-qCE">
-                                                            <rect key="frame" x="309" y="10" width="103" height="100"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        </imageView>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-2g-N4M">
-                                                            <rect key="frame" x="83" y="79" width="173" height="31"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="plain">
-                                                                <attributedString key="attributedTitle">
-                                                                    <fragment content="الانتقال للموقع"/>
-                                                                </attributedString>
-                                                            </buttonConfiguration>
-                                                            <connections>
-                                                                <action selector="l4:" destination="vUh-py-EMv" eventType="touchUpInside" id="i8O-Ab-sYp"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="RKX-bn-YSB">
-                                                <rect key="frame" x="0.0" y="524.5" width="414" height="120"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RKX-bn-YSB" id="OTt-d9-g64">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Medical Technologist (MT)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhG-nW-wRd">
-                                                            <rect key="frame" x="20" y="10" width="281" height="65"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vVW-Mj-B38">
-                                                            <rect key="frame" x="309" y="10" width="103" height="100"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <string key="image">mt_badge_logo_medical_technologist_laboratory_classic_round_sticker-ra924e3e114b94c39873b47b6d4e712a2_0ugmp_8byvr_736-removebg-preview</string>
-                                                        </imageView>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njb-Cl-aow">
-                                                            <rect key="frame" x="83" y="79" width="173" height="31"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="plain">
-                                                                <attributedString key="attributedTitle">
-                                                                    <fragment content="الانتقال للموقع"/>
-                                                                </attributedString>
-                                                            </buttonConfiguration>
-                                                            <connections>
-                                                                <action selector="l5:" destination="vUh-py-EMv" eventType="touchUpInside" id="mOk-1h-55h"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                        </prototypes>
                                         <sections/>
                                     </tableView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="yhc-eI-PlZ" firstAttribute="top" secondItem="wcn-yV-Exy" secondAttribute="top" id="FW0-cz-Fcc"/>
+                                    <constraint firstItem="yhc-eI-PlZ" firstAttribute="leading" secondItem="wcn-yV-Exy" secondAttribute="leading" id="QKa-TX-9cT"/>
+                                    <constraint firstAttribute="trailing" secondItem="yhc-eI-PlZ" secondAttribute="trailing" id="dti-ES-Gk0"/>
+                                    <constraint firstAttribute="bottom" secondItem="yhc-eI-PlZ" secondAttribute="bottom" id="pJN-1f-HOY"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCf-te-ieG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wcn-yV-Exy" firstAttribute="leading" secondItem="gCf-te-ieG" secondAttribute="leading" id="1PQ-c7-40x"/>
+                            <constraint firstItem="wcn-yV-Exy" firstAttribute="top" secondItem="gCf-te-ieG" secondAttribute="top" constant="195" id="4SE-Oo-k4J"/>
+                            <constraint firstItem="wcn-yV-Exy" firstAttribute="bottom" secondItem="gCf-te-ieG" secondAttribute="bottom" id="JhM-vQ-9eo"/>
+                            <constraint firstItem="gCf-te-ieG" firstAttribute="trailing" secondItem="wcn-yV-Exy" secondAttribute="trailing" id="oxt-NK-ulc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0eB-Qp-xJm"/>
+                    <connections>
+                        <outlet property="tableView" destination="yhc-eI-PlZ" id="WDU-Ze-qUA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bex-J2-8Jl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -973,15 +808,8 @@
         <segue reference="FLL-Cj-iGm"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="647927bc-b2bd-49eb-a2db-8424fdee66df-151215125404-thumbnail-removebg-preview" width="548" height="455"/>
-        <image name="CCRA" width="1000" height="1000"/>
-        <image name="CPHQ_Seal_Logo_GOLD-copy-removebg-preview" width="514" height="486"/>
-        <image name="NBPHE_500x500 (1)" width="2084" height="2085"/>
         <image name="circle" width="113.5" height="99.5"/>
         <image name="circlebadge.fill" catalog="system" width="128" height="120"/>
-        <image width="500" height="500">
-            <string key="name">mt_badge_logo_medical_technologist_laboratory_classic_round_sticker-ra924e3e114b94c39873b47b6d4e712a2_0ugmp_8byvr_736-removebg-preview</string>
-        </image>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
