@@ -12,7 +12,7 @@ class BusViewController: UIViewController,UITableViewDelegate, UITableViewDataSo
     
     @IBOutlet weak var tableView: UITableView!
     let BusModelList: [BusModel] = BusModel.getMock()
-    
+    //
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
