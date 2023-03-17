@@ -10,7 +10,7 @@ import UIKit
 class ITViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
     
-    
+  
     @IBOutlet weak var tableView: UITableView!
     
  let ITModelList: [ITModel] = ITModel.getMock()
