@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		34FE414E29C46DE1004C4AFA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE414D29C46DE1004C4AFA /* ListViewController.swift */; };
 		53DE601E29C4A26D0023C62A /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 53DE601D29C4A26D0023C62A /* OpenAISwift */; };
+		53EE564F29C4A48F0062FDF3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EE564E29C4A48F0062FDF3 /* ViewModel.swift */; };
 		A25AB01729C490C1007AC1E0 /* Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25AB01629C490C1007AC1E0 /* Health.swift */; };
 		F0A04DE729C3BBF600AC7A52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */; };
 		F0A04DE929C3BD7300AC7A52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0A04DE829C3BD7300AC7A52 /* GoogleService-Info.plist */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		34FE414D29C46DE1004C4AFA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		53EE564E29C4A48F0062FDF3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A25AB01629C490C1007AC1E0 /* Health.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
 		F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ChatGPT/LoginViewController.swift; sourceTree = "<group>"; };
 		F0A04DE829C3BD7300AC7A52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		F0F88D9029C39430007ABAAA = {
 			isa = PBXGroup;
 			children = (
+				53EE564E29C4A48F0062FDF3 /* ViewModel.swift */,
 				F0A04E2829C3BF4700AC7A52 /* Global.swift */,
 				F0A04E2629C3BF1700AC7A52 /* RegisterViewController.swift */,
 				F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */,
@@ -383,6 +386,7 @@
 				F0A04E2929C3BF4700AC7A52 /* Global.swift in Sources */,
 				F0A04DE729C3BBF600AC7A52 /* LoginViewController.swift in Sources */,
 				F0F88DCD29C3947E007ABAAA /* ChatGPTAPI.swift in Sources */,
+				53EE564F29C4A48F0062FDF3 /* ViewModel.swift in Sources */,
 				A25AB01729C490C1007AC1E0 /* Health.swift in Sources */,
 				F0A04E2729C3BF1700AC7A52 /* RegisterViewController.swift in Sources */,
 				F0F88DA129C39430007ABAAA /* ViewController.swift in Sources */,
