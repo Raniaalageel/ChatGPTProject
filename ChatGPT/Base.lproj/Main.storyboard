@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -43,7 +44,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="XNs-6B-LVj" kind="show" id="9Gl-Sy-2g5"/>
+                                    <segue destination="XNs-6B-LVj" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="9Gl-Sy-2g5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8E-9A-9nj">
@@ -64,7 +65,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="jXH-EB-gfw" kind="show" id="oKa-vN-Kpl"/>
+                                    <segue destination="jXH-EB-gfw" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="oKa-vN-Kpl"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="circlebadge.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VfU-Fz-qAX">
@@ -183,9 +184,20 @@
                                 <rect key="frame" x="224" y="132" width="170" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="of0-wr-4IH">
+                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Fwp-BT-Unc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="qa0-on-Vv7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LDx-vb-wlf"/>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.97647058819999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -271,9 +283,20 @@
                                 <rect key="frame" x="182" y="121" width="212" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRb-ng-Ifp">
+                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Fwp-BT-Unc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="leu-MS-ZB7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gzc-S6-vLM"/>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.97647058819999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -566,6 +589,19 @@
                                 <color key="textColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUU-2t-2e0">
+                                <rect key="frame" x="343" y="40" width="67" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="rectangle.portrait.and.arrow.right" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Fwp-BT-Unc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="GWO-pw-tfo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xuA-kk-jcx"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -574,7 +610,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7JW-Kf-l8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5135" y="615"/>
+            <point key="canvasLocation" x="5134.7826086956529" y="614.73214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YuC-0l-jHt">
@@ -689,11 +725,11 @@
                         <viewLayoutGuide key="safeArea" id="T64-Cd-pNJ"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="newspaper" catalog="system" id="RPx-3h-CEi"/>
+                    <navigationItem key="navigationItem" id="1rO-Eh-aLv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dnh-wz-kNX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5976.811594202899" y="-892.63392857142856"/>
+            <point key="canvasLocation" x="6886.9565217391309" y="-892.63392857142856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="lEb-mH-NPM">
@@ -707,7 +743,7 @@
                         <color key="selectedImageTintColor" systemColor="systemBrownColor"/>
                     </tabBar>
                     <connections>
-                        <segue destination="zEN-29-Z68" kind="relationship" relationship="viewControllers" id="v1b-ah-dPA"/>
+                        <segue destination="4lm-Hy-l20" kind="relationship" relationship="viewControllers" id="v1b-ah-dPA"/>
                         <segue destination="8Ue-vn-LMT" kind="relationship" relationship="viewControllers" id="gBb-8F-ZyX"/>
                         <segue destination="Pcw-RB-3gv" kind="relationship" relationship="viewControllers" id="zd2-g1-dzs"/>
                     </connections>
@@ -821,6 +857,17 @@
                                     <constraint firstAttribute="bottom" secondItem="yhc-eI-PlZ" secondAttribute="bottom" id="pJN-1f-HOY"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyE-8X-TnU">
+                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="UKY-xi-7O8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCf-te-ieG"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -838,7 +885,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bex-J2-8Jl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7794" y="-1386"/>
+            <point key="canvasLocation" x="8702.898550724638" y="-1386.1607142857142"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0fJ-U1-50L">
@@ -856,7 +903,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEn-5m-9Vb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6909" y="-1386"/>
+            <point key="canvasLocation" x="7818.8405797101459" y="-1386.1607142857142"/>
         </scene>
         <!--Bus View Controller-->
         <scene sceneID="EYg-13-KCY">
@@ -894,6 +941,17 @@
                                     <constraint firstItem="0Mb-2c-HBV" firstAttribute="top" secondItem="WTy-4B-iIN" secondAttribute="top" id="xmu-2M-nH5"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Aj-6g-yID">
+                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="VfU-K1-ohA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fco-m9-L9r"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -911,7 +969,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qyy-AC-ujL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8974" y="-711"/>
+            <point key="canvasLocation" x="9884.0579710144939" y="-711.16071428571422"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="s7I-H4-Ocq">
@@ -929,7 +987,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3c-jn-2pM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8076.811594202899" y="-711.16071428571422"/>
+            <point key="canvasLocation" x="8986.9565217391319" y="-711.16071428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="74O-LE-Aoy">
@@ -967,6 +1025,17 @@
                                     <constraint firstItem="hB4-Wb-izc" firstAttribute="top" secondItem="XLA-2b-M3X" secondAttribute="top" id="aRq-Bl-qUx"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLc-0v-kNW">
+                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="wX4-x8-cK1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Kw-Pa-stp"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1022,6 +1091,17 @@
                                     <constraint firstAttribute="bottom" secondItem="qEt-qa-V90" secondAttribute="bottom" id="vEG-g2-6U0"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAF-vK-jl6">
+                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="8qu-o6-zii"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uu9-jt-GMA"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1077,15 +1157,42 @@
             </objects>
             <point key="canvasLocation" x="8753.6231884057979" y="778.79464285714278"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lQw-EN-VF4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4lm-Hy-l20" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="newspaper" catalog="system" id="RPx-3h-CEi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IHV-Ft-D2X">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="brY-QQ-deJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="zEN-29-Z68" kind="relationship" relationship="rootViewController" id="7Qn-oF-TdZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VLF-jg-3fS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5976.811594202899" y="-892.63392857142856"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="l1W-Rd-Rfr"/>
+        <segue reference="FLL-Cj-iGm"/>
+        <segue reference="8qu-o6-zii"/>
+        <segue reference="qa0-on-Vv7"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="circle" width="113.5" height="99.5"/>
         <image name="circlebadge.fill" catalog="system" width="128" height="120"/>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

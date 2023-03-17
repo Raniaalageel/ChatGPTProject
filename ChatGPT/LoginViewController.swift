@@ -76,17 +76,20 @@ class LoginViewController: UIViewController {
 
         guard let email = emailTextfiled1.text?.trimmingCharacters(in: .whitespaces).lowercased() , !email.isEmpty
         else {
-            validationMessegepass1.isHidden = false
+            //H
+          //     validationMessegepass1.isHidden = false
             validationMessegepass1.text = "الرجاء ادخال البريد  الالكتروني"
             return (false, "", "")
         }
         guard let password = passwordTextfiled1.text, !password.isEmpty else {
-            validationMessegepass1.isHidden = false
+            //H
+          //   validationMessegepass1.isHidden = false
             validationMessegepass1.text = "الرجاء ادخال كلمة  المرور"
             return (false, "", "")
         }
         if !isValidEmail(emailID: email) {
-            validationMessegepass1.isHidden = false
+            //H
+          //   validationMessegepass1.isHidden = false
             validationMessegepass1.text = "الرجاء ادخال بريد صحيح"
             return (false, "", "")
         }
