@@ -823,7 +823,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCf-te-ieG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wcn-yV-Exy" firstAttribute="leading" secondItem="gCf-te-ieG" secondAttribute="leading" id="1PQ-c7-40x"/>
                             <constraint firstItem="wcn-yV-Exy" firstAttribute="top" secondItem="gCf-te-ieG" secondAttribute="top" constant="195" id="4SE-Oo-k4J"/>
@@ -896,7 +896,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fco-m9-L9r"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fco-m9-L9r" firstAttribute="trailing" secondItem="WTy-4B-iIN" secondAttribute="trailing" id="Uok-c9-mxx"/>
                             <constraint firstItem="WTy-4B-iIN" firstAttribute="bottom" secondItem="fco-m9-L9r" secondAttribute="bottom" id="ZRz-AJ-n4p"/>
@@ -969,7 +969,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Kw-Pa-stp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XLA-2b-M3X" firstAttribute="leading" secondItem="0Kw-Pa-stp" secondAttribute="leading" id="Oxi-Xo-HGb"/>
                             <constraint firstItem="XLA-2b-M3X" firstAttribute="bottom" secondItem="0Kw-Pa-stp" secondAttribute="bottom" id="c6v-Ql-cQQ"/>
@@ -1024,7 +1024,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uu9-jt-GMA"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vEg-6I-LWd" firstAttribute="bottom" secondItem="uu9-jt-GMA" secondAttribute="bottom" id="DI4-hc-SIw"/>
                             <constraint firstItem="uu9-jt-GMA" firstAttribute="trailing" secondItem="vEg-6I-LWd" secondAttribute="trailing" id="Exg-qs-Zbs"/>
