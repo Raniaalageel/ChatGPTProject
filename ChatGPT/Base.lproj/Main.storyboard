@@ -734,10 +734,10 @@
             </objects>
             <point key="canvasLocation" x="6962" y="546"/>
         </scene>
-        <!--View Controller-->
+        <!--Health-->
         <scene sceneID="S57-BP-7L6">
             <objects>
-                <viewController id="vUh-py-EMv" sceneMemberID="viewController">
+                <viewController id="vUh-py-EMv" customClass="Health" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hdA-Km-IkD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -747,17 +747,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="الصحة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUr-6u-c6V">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الصحة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUr-6u-c6V">
                                 <rect key="frame" x="302" y="137.5" width="92" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wcn-yV-Exy">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wcn-yV-Exy">
                                 <rect key="frame" x="0.0" y="283" width="414" height="613"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-eI-PlZ">
-                                        <rect key="frame" x="0.0" y="-14" width="414" height="627"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-eI-PlZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="627"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="cYG-11-BxH">
@@ -788,6 +791,9 @@
                                                                     <fragment content="الانتقال للموقع"/>
                                                                 </attributedString>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="l1:" destination="vUh-py-EMv" eventType="touchUpInside" id="fR6-du-Yg0"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </tableViewCellContentView>
@@ -820,6 +826,9 @@
                                                                     <fragment content="الانتقال للموقع"/>
                                                                 </attributedString>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="l2:" destination="vUh-py-EMv" eventType="touchUpInside" id="BRM-Qy-VNG"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </tableViewCellContentView>
@@ -852,6 +861,9 @@
                                                                     <fragment content="الانتقال للموقع"/>
                                                                 </attributedString>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="l3:" destination="vUh-py-EMv" eventType="touchUpInside" id="eds-pe-Ibj"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </tableViewCellContentView>
@@ -884,6 +896,9 @@
                                                                     <fragment content="الانتقال للموقع"/>
                                                                 </attributedString>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="l4:" destination="vUh-py-EMv" eventType="touchUpInside" id="i8O-Ab-sYp"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </tableViewCellContentView>
@@ -916,6 +931,9 @@
                                                                     <fragment content="الانتقال للموقع"/>
                                                                 </attributedString>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="l5:" destination="vUh-py-EMv" eventType="touchUpInside" id="mOk-1h-55h"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </tableViewCellContentView>
@@ -924,20 +942,10 @@
                                         <sections/>
                                     </tableView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="yhc-eI-PlZ" secondAttribute="bottom" id="59T-Y1-z4h"/>
-                                    <constraint firstItem="yhc-eI-PlZ" firstAttribute="top" secondItem="wcn-yV-Exy" secondAttribute="top" id="Zqm-1s-mvd"/>
-                                    <constraint firstItem="yhc-eI-PlZ" firstAttribute="leading" secondItem="wcn-yV-Exy" secondAttribute="leading" id="ujJ-Dm-SVT"/>
-                                    <constraint firstAttribute="trailing" secondItem="yhc-eI-PlZ" secondAttribute="trailing" id="zf7-mL-XkL"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCf-te-ieG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="wcn-yV-Exy" firstAttribute="top" secondItem="EUr-6u-c6V" secondAttribute="bottom" constant="102.5" id="W6P-C0-M26"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0eB-Qp-xJm"/>
                 </viewController>
