@@ -21,13 +21,44 @@ class ListViewController: UIViewController
 {
     
     
+    @IBOutlet weak var bbtn: UIButton!
     
+    @IBOutlet weak var engbtn: UIButton!
     
+    @IBOutlet weak var helthbtn: UIButton!
     
+    @IBOutlet weak var itbtn: UIButton!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        bbtn.layer.shadowColor = UIColor.gray.cgColor
+        bbtn.layer.shadowOpacity = 1.0
+        bbtn.layer.shadowOffset = CGSize(width: 3, height: 3)
+        bbtn.layer.shadowRadius = 6
+
+        bbtn.translatesAutoresizingMaskIntoConstraints = false
+        //
+        engbtn.layer.shadowColor = UIColor.gray.cgColor
+        engbtn.layer.shadowOpacity = 1.0
+        engbtn.layer.shadowOffset = CGSize(width: 3, height: 3)
+        engbtn.layer.shadowRadius = 6
+
+        engbtn.translatesAutoresizingMaskIntoConstraints = false
+        //
+        helthbtn.layer.shadowColor = UIColor.gray.cgColor
+        helthbtn.layer.shadowOpacity = 1.0
+        helthbtn.layer.shadowOffset = CGSize(width: 3, height: 3)
+        helthbtn.layer.shadowRadius = 6
+
+        helthbtn.translatesAutoresizingMaskIntoConstraints = false
+        //
+        itbtn.layer.shadowColor = UIColor.gray.cgColor
+        itbtn.layer.shadowOpacity = 1.0
+        itbtn.layer.shadowOffset = CGSize(width: 3, height: 3)
+        itbtn.layer.shadowRadius = 6
+
+        itbtn.translatesAutoresizingMaskIntoConstraints = false
 
         // Do any additional setup after loading the view.
     }
