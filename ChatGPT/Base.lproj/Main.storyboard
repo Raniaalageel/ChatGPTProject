@@ -438,7 +438,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZY1-Hw-vZI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4942" y="1063"/>
+            <point key="canvasLocation" x="4857" y="1425"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hlh-3P-gfu">
@@ -456,7 +456,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYo-my-ne7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6223" y="-181"/>
+            <point key="canvasLocation" x="5977" y="121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aCY-DV-y5M">
@@ -529,7 +529,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7JW-Kf-l8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6120" y="546"/>
+            <point key="canvasLocation" x="5135" y="615"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YuC-0l-jHt">
@@ -591,6 +591,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="U8q-q2-vG2" kind="presentation" modalPresentationStyle="fullScreen" id="F2X-FN-Dvk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaw-qh-sZI">
                                 <rect key="frame" x="47" y="553" width="147" height="110"/>
@@ -728,7 +731,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ISR-gv-VJ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6962" y="546"/>
+            <point key="canvasLocation" x="5928" y="780"/>
         </scene>
         <!--Health-->
         <scene sceneID="S57-BP-7L6">
@@ -783,7 +786,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bex-J2-8Jl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7815.9420289855079" y="-919.41964285714278"/>
+            <point key="canvasLocation" x="7794" y="-1386"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0fJ-U1-50L">
@@ -801,11 +804,84 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEn-5m-9Vb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6905.7971014492759" y="-919.41964285714278"/>
+            <point key="canvasLocation" x="6909" y="-1386"/>
+        </scene>
+        <!--Bus View Controller-->
+        <scene sceneID="EYg-13-KCY">
+            <objects>
+                <viewController id="T9s-eC-Aoo" customClass="BusViewController" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="etR-3m-THd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="circlebadge.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nXd-aG-Juu">
+                                <rect key="frame" x="-233" y="-424.5" width="880" height="727"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ادارة  الأعمال" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gaj-Ro-AjA">
+                                <rect key="frame" x="220" y="137.5" width="174" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTy-4B-iIN">
+                                <rect key="frame" x="0.0" y="283" width="414" height="579"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0Mb-2c-HBV">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="579"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <sections/>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0Mb-2c-HBV" secondAttribute="bottom" id="d4Z-df-DAp"/>
+                                    <constraint firstItem="0Mb-2c-HBV" firstAttribute="leading" secondItem="WTy-4B-iIN" secondAttribute="leading" id="dIL-co-yJP"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Mb-2c-HBV" secondAttribute="trailing" id="nb3-0z-LSm"/>
+                                    <constraint firstItem="0Mb-2c-HBV" firstAttribute="top" secondItem="WTy-4B-iIN" secondAttribute="top" id="xmu-2M-nH5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fco-m9-L9r"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fco-m9-L9r" firstAttribute="trailing" secondItem="WTy-4B-iIN" secondAttribute="trailing" id="Uok-c9-mxx"/>
+                            <constraint firstItem="WTy-4B-iIN" firstAttribute="bottom" secondItem="fco-m9-L9r" secondAttribute="bottom" id="ZRz-AJ-n4p"/>
+                            <constraint firstItem="WTy-4B-iIN" firstAttribute="leading" secondItem="fco-m9-L9r" secondAttribute="leading" id="Zyf-ya-4hq"/>
+                            <constraint firstItem="WTy-4B-iIN" firstAttribute="top" secondItem="fco-m9-L9r" secondAttribute="top" constant="195" id="iWc-H3-10i"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="doo-iK-SUI"/>
+                    <connections>
+                        <outlet property="tableView" destination="0Mb-2c-HBV" id="17l-rX-VCY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qyy-AC-ujL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8986.9565217391319" y="-711.16071428571422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="s7I-H4-Ocq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U8q-q2-vG2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ybe-1w-hhf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="T9s-eC-Aoo" kind="relationship" relationship="rootViewController" id="6Kb-51-s52"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w3c-jn-2pM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8076.811594202899" y="-711.16071428571422"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FLL-Cj-iGm"/>
+        <segue reference="l1W-Rd-Rfr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="circle" width="113.5" height="99.5"/>

@@ -7,10 +7,11 @@
 
 import UIKit
 
-class Health: UIViewController,  UITableViewDelegate, UITableViewDataSource  {
-
+class BusViewController: UIViewController {
+    
+    
     @IBOutlet weak var tableView: UITableView!
-    let healthList: [HealthModel] = HealthModel.getMock()
+    let BusModelList: [BusModel] = BusModel.getMock()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,16 +35,21 @@ class Health: UIViewController,  UITableViewDelegate, UITableViewDataSource  {
         // Pass the selected object to the new view controller.
     }
     */
+
+}
+
+extension BusViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return  healthList.count
+        return  BusModelList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "healthTableViewCell", for: indexPath) as! HealthTableViewCell
-        let healthModel  =  healthList[indexPath.row]
+        let  busModel  =  BusModelList[indexPath.row]
+        var healthModel = HealthModel(title: busModel.title, image: busModel.image, url: busModel.url)
         cell.setupUI(healthModel)
         cell.loacationButton.addTarget(self, action: #selector(connected(sender:)), for: .touchUpInside)
         //  id =1
@@ -55,11 +61,8 @@ class Health: UIViewController,  UITableViewDelegate, UITableViewDataSource  {
     
     @objc func connected(sender: UIButton){
         let buttonTag = sender.tag
-        UIApplication.shared.open(URL(string: healthList[buttonTag].url)! as  URL, options:  [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: BusModelList[buttonTag].url)! as  URL, options:  [:], completionHandler: nil)
         // open web healthList [sender.tag]
     }
     
-
 }
-
-
