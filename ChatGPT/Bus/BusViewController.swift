@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BusViewController: UIViewController {
+class BusViewController: UIViewController,UITableViewDelegate, UITableViewDataSource{
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -36,9 +36,7 @@ class BusViewController: UIViewController {
     }
     */
 
-}
 
-extension BusViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -63,6 +61,6 @@ extension BusViewController: UITableViewDelegate, UITableViewDataSource {
         let buttonTag = sender.tag
         UIApplication.shared.open(URL(string: BusModelList[buttonTag].url)! as  URL, options:  [:], completionHandler: nil)
         // open web healthList [sender.tag]
-    }
     
+    }
 }
