@@ -606,16 +606,16 @@
                                     <color key="baseForegroundColor" red="0.98431372549999996" green="0.97647058819999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBw-3d-TDY">
-                                <rect key="frame" x="186" y="335" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="اختر احد مجالات التخصصات  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBw-3d-TDY">
+                                <rect key="frame" x="125" y="318" width="289" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="T64-Cd-pNJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.97647058819999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="T64-Cd-pNJ" firstAttribute="trailing" secondItem="Eaw-qh-sZI" secondAttribute="trailing" constant="220" id="16L-14-nHq"/>
                             <constraint firstItem="HAS-L3-LLD" firstAttribute="bottom" secondItem="pQ8-79-sLk" secondAttribute="bottom" id="64i-fe-SeI"/>
