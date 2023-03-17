@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34FE414E29C46DE1004C4AFA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE414D29C46DE1004C4AFA /* ListViewController.swift */; };
+		5326ADBE29C4E215009CE451 /* ViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ADBD29C4E215009CE451 /* ViewModel2.swift */; };
 		A24D6C6429C49CB7006CA5F8 /* HealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D6C6229C49CB7006CA5F8 /* HealthTableViewCell.swift */; };
 		A24D6C6529C49CB7006CA5F8 /* HealthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24D6C6329C49CB7006CA5F8 /* HealthTableViewCell.xib */; };
 		A24D6C6729C4A1BC006CA5F8 /* HealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D6C6629C4A1BC006CA5F8 /* HealthModel.swift */; };
@@ -84,6 +85,7 @@
 
 /* Begin PBXFileReference section */
 		34FE414D29C46DE1004C4AFA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5326ADBD29C4E215009CE451 /* ViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel2.swift; sourceTree = "<group>"; };
 		A24D6C6229C49CB7006CA5F8 /* HealthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTableViewCell.swift; sourceTree = "<group>"; };
 		A24D6C6329C49CB7006CA5F8 /* HealthTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthTableViewCell.xib; sourceTree = "<group>"; };
 		A24D6C6629C4A1BC006CA5F8 /* HealthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModel.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 		F0F88D9029C39430007ABAAA = {
 			isa = PBXGroup;
 			children = (
+				5326ADBD29C4E215009CE451 /* ViewModel2.swift */,
 				F0A04E2829C3BF4700AC7A52 /* Global.swift */,
 				F0A04E2629C3BF1700AC7A52 /* RegisterViewController.swift */,
 				F0A04DE629C3BBF600AC7A52 /* LoginViewController.swift */,
@@ -463,6 +466,7 @@
 				A24D6C6729C4A1BC006CA5F8 /* HealthModel.swift in Sources */,
 				34FE414E29C46DE1004C4AFA /* ListViewController.swift in Sources */,
 				F0F88D9D29C39430007ABAAA /* AppDelegate.swift in Sources */,
+				5326ADBE29C4E215009CE451 /* ViewModel2.swift in Sources */,
 				F0F88DCF29C39492007ABAAA /* ChatGPTAPIModels.swift in Sources */,
 				F0F88D9F29C39430007ABAAA /* SceneDelegate.swift in Sources */,
 				A2AB956829C4CAB900BA698F /* EngViewController.swift in Sources */,
