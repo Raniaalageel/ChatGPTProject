@@ -40,7 +40,7 @@ class ViewModel: UIViewController,ObservableObject, UITextFieldDelegate , UIText
     //[MessageRow] = []
     var inputMessage: String = ""
     
-    var api: ChatGPTAPI = ChatGPTAPI(apiKey: "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")
+    var api: ChatGPTAPI = ChatGPTAPI(apiKey: "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")
     
     @IBOutlet weak var resonceLabel: UITextView!
     
@@ -81,6 +81,12 @@ class ViewModel: UIViewController,ObservableObject, UITextFieldDelegate , UIText
       fileds.tag = 2
         
         
+        
+        
+    }
+    
+    func retrive(){
+        
         db.collection("User").whereField("email", isEqualTo: "rania@gmail.com").getDocuments{
             (snapshot, error) in
             if let error = error {
@@ -93,9 +99,6 @@ class ViewModel: UIViewController,ObservableObject, UITextFieldDelegate , UIText
                 print("??????FlowerPoints",self.fileRetrive!)
                 
                 self.urll = URL(string: self.fileRetrive)
-                
-        
-
     }
             
         }
@@ -161,6 +164,7 @@ class ViewModel: UIViewController,ObservableObject, UITextFieldDelegate , UIText
             SendBtn.isEnabled = false
                        }
         areYouSure()
+        retrive()
 
         
     }
@@ -320,15 +324,18 @@ class ViewModel: UIViewController,ObservableObject, UITextFieldDelegate , UIText
               //  print(documentContent,"documentContent")
             }
             print("documentContent finall",textCV)
-
         }
         
         
         fileds.text = textCV
         
+        print("fileds.text",fileds.text)
+
+        
+        
         Task{
-          
-            await send(text: fileds.text)
+            print("textCV",textCV)
+            await send(text:textCV)
             print("the responce text is:",responseText)
           resonceLabel.text = responseText
             
@@ -338,6 +345,7 @@ class ViewModel: UIViewController,ObservableObject, UITextFieldDelegate , UIText
     
     
     func send(text: String) async  {
+        print(" text take :",text)
         print("send")
         isInteractingWithChatGPT = true
         var streamText = ""
@@ -355,16 +363,20 @@ class ViewModel: UIViewController,ObservableObject, UITextFieldDelegate , UIText
         // self.messages.append(messageRow)
         
         do {
+            print("before")
             let stream = try await api.sendMessageStream(text: text)
+            print("after")
             // if let stream = try await api.sendMessageStream(text: text) {
             for try await text in stream {
                 streamText += text
                 responseText = streamText.trimmingCharacters(in: .whitespacesAndNewlines)
                 //self.messages[self.messages.count - 1] = messageRow
             }
+            print("respnce :##333333",responseText)
             // }
             
         } catch {
+            print("catch")
             responseError = error.localizedDescription
         }
         

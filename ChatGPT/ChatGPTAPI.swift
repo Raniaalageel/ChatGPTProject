@@ -257,7 +257,7 @@ class ChatGPTAPI: @unchecked Sendable {
                             continuation.yield(text)
                         }
                     }
-                  //  print(responseText)
+                    print("responseText",responseText)
                     self?.appendToHistoryList(userText: text, responseText: responseText)
                     continuation.finish()
                 } catch {
