@@ -730,10 +730,10 @@
             </objects>
             <point key="canvasLocation" x="6962" y="546"/>
         </scene>
-        <!--View Controller-->
+        <!--Health-->
         <scene sceneID="S57-BP-7L6">
             <objects>
-                <viewController id="vUh-py-EMv" sceneMemberID="viewController">
+                <viewController id="vUh-py-EMv" customClass="Health" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hdA-Km-IkD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -907,7 +907,6 @@
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vVW-Mj-B38">
                                                             <rect key="frame" x="309" y="10" width="103" height="100"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <string key="image">mt_badge_logo_medical_technologist_laboratory_classic_round_sticker-ra924e3e114b94c39873b47b6d4e712a2_0ugmp_8byvr_736-removebg-preview</string>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njb-Cl-aow">
                                                             <rect key="frame" x="83" y="79" width="173" height="31"/>
@@ -983,9 +982,6 @@
         <image name="NBPHE_500x500 (1)" width="2084" height="2085"/>
         <image name="circle" width="113.5" height="99.5"/>
         <image name="circlebadge.fill" catalog="system" width="128" height="120"/>
-        <image width="500" height="500">
-            <string key="name">mt_badge_logo_medical_technologist_laboratory_classic_round_sticker-ra924e3e114b94c39873b47b6d4e712a2_0ugmp_8byvr_736-removebg-preview</string>
-        </image>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
