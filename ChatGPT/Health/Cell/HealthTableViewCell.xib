@@ -37,10 +37,18 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="DEw-dW-0pu"/>
                                 </constraints>
-                                <color key="tintColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.70749577070000003" green="0.58836513300000004" blue="0.47776086309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="menucard" catalog="system" subtitle="للمزيد من المعلومات   ">
+                                <buttonConfiguration key="configuration" style="plain" image="menucard" catalog="system">
                                     <attributedString key="attributedTitle"/>
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content="للمزيد من المعلومات   ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.71222704650000002" green="0.60768121480000004" blue="0.50336045029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="13" name="GeezaPro-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </buttonConfiguration>
                             </button>
                         </subviews>

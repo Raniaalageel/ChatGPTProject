@@ -16,10 +16,10 @@ struct ITModel{
 extension ITModel {
     static func getMock() -> [ITModel]{
         return  [
-            ITModel(title: "CompTIA A+", image: "a", url: "https://www.comptia.org/certifications/a"),
+            ITModel(title: "CompTIA A+", image: "aa", url: "https://www.comptia.org/certifications/a"),
             ITModel(title: "Azure  AI Fundamentals", image: "b", url: "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/"),
-            ITModel(title: "Certified Ethical Hacker", image: "c", url: "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"),
-            ITModel(title: "Certificate in Cybersecurity Analysis", image: "d", url: "https://www.iiba.org/business-analysis-certifications/certificate-in-cybersecurity-analysis/"),
+            ITModel(title: "Certified Ethical Hacker", image: "cc", url: "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"),
+            ITModel(title: "Certificate in Cybersecurity Analysis", image: "dd", url: "https://www.iiba.org/business-analysis-certifications/certificate-in-cybersecurity-analysis/"),
             ITModel(title: "COBIT Foundation", image: "e", url: "https://www.isaca.org/credentialing/cobit-foundation")
         ]
         

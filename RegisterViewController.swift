@@ -62,24 +62,28 @@ class RegisterViewController: UIViewController {
         Passwordvalidation.isHidden = true
         
         guard let email = emailTextField.text?.trimmingCharacters(in: .whitespaces).lowercased() , !email.isEmpty
-        else {
-            Emailvalidation.isHidden = false
+        else{
+            //H
+          //  Emailvalidation.isHidden = false
             Emailvalidation.text = "* الرجاء إدخال البريد الالكتروني"
             return (false, "", "")
         }
         guard let password = passwordTextField.text, !password.isEmpty else {
-            Passwordvalidation.isHidden = false
+            //H
+          //   Passwordvalidation.isHidden = false
             Passwordvalidation.text = "* الرجاء إدخال كلمة المرور"
             return (false, "", "")
         }
         if !isValidEmailR(emailID: email) {
-            Emailvalidation.isHidden = false
+            //H
+          //     Emailvalidation.isHidden = false
             Emailvalidation.text = "* الرجاء إدخال بريد الكتروني صحيح"
             return (false, "", "")
         }
         if !isValidPasswordR(PasswordText: password){
          
-            Passwordvalidation.isHidden = false
+            //H
+          //      Passwordvalidation.isHidden = false
             Passwordvalidation.text = "* الرجاء إدخال كلمة مرور بين ٨ و ١٥ رقم"
             return (false, "", "")
         }
@@ -117,7 +121,8 @@ class RegisterViewController: UIViewController {
                         print("not exists email 111")
                          }else {
                              print("email exists")
-                             self.Emailvalidation.isHidden = false
+                             //H
+                           //   self.Emailvalidation.isHidden = false
                              self.Emailvalidation.text = "*هذا البريد الالكتروني موجود"
 
                 }
@@ -174,7 +179,8 @@ class RegisterViewController: UIViewController {
                         print("not exists email")
                          }else {
                              print("email exists")
-                             self.Emailvalidation.isHidden = false
+                             //H
+                           //     self.Emailvalidation.isHidden = false
                              self.Emailvalidation.text = "*هذا البريد الالكتروني موجود"
                             
                 }
@@ -254,12 +260,14 @@ class RegisterViewController: UIViewController {
         
         guard let Name = nameTextField.text?.trimmingCharacters(in: .whitespaces).lowercased() , !Name.isEmpty
         else {
-            Namevalidation.isHidden = false
+            //H
+          //  Namevalidation.isHidden = false
             Namevalidation.text = "* الرجاء إدخال اسم "
             return (false, "", "")
            }
         if !isValidCharacterName(nameText: Name) {
-            Namevalidation.isHidden = false
+            //H
+          //    Namevalidation.isHidden = false
             Namevalidation.text = "* الرجاء إدخال اسم صحيح"
             return (false, "", "")
         }
