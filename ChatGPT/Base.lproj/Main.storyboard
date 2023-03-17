@@ -547,7 +547,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="الصحة">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -569,7 +569,8 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="إدارة الأعمال">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -591,7 +592,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="الهندسة">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -613,7 +614,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="تقنية المعلومات">
                                             <attributes>
-                                                <font key="NSFont" size="22" name="GeezaPro"/>
+                                                <font key="NSFont" size="24" name="GeezaPro"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
