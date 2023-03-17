@@ -226,7 +226,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder=" أدخل البريد لالكتروني" textAlignment="right" minimumFontSize="31" translatesAutoresizingMaskIntoConstraints="NO" id="bA6-k1-opZ">
-                                <rect key="frame" x="29" y="341" width="345" height="34"/>
+                                <rect key="frame" x="29" y="341" width="345" height="39.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -651,7 +651,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="8YF-dR-ZEO" kind="presentation" modalPresentationStyle="fullScreen" id="IwT-ru-dmV"/>
+                                    <segue destination="8YF-dR-ZEO" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="IwT-ru-dmV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAS-L3-LLD">
@@ -674,7 +674,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="U8q-q2-vG2" kind="presentation" modalPresentationStyle="fullScreen" id="F2X-FN-Dvk"/>
+                                    <segue destination="U8q-q2-vG2" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="F2X-FN-Dvk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaw-qh-sZI">
@@ -696,7 +696,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="lrH-zC-KJ0" kind="presentation" modalPresentationStyle="fullScreen" id="vaZ-Jq-tcU"/>
+                                    <segue destination="lrH-zC-KJ0" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="vaZ-Jq-tcU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgl-Un-VoM">
@@ -718,7 +718,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="3p8-Ld-JNN" kind="presentation" modalPresentationStyle="fullScreen" id="DoD-LO-o55"/>
+                                    <segue destination="3p8-Ld-JNN" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="DoD-LO-o55"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -858,7 +858,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyE-8X-TnU">
-                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <rect key="frame" x="12" y="50" width="62" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
@@ -942,7 +942,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Aj-6g-yID">
-                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <rect key="frame" x="12" y="50" width="62" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
@@ -1026,7 +1026,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLc-0v-kNW">
-                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <rect key="frame" x="12" y="50" width="62" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
@@ -1092,7 +1092,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAF-vK-jl6">
-                                <rect key="frame" x="12" y="50" width="62" height="44"/>
+                                <rect key="frame" x="12" y="50" width="62" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
@@ -1181,9 +1181,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FLL-Cj-iGm"/>
+        <segue reference="l1W-Rd-Rfr"/>
         <segue reference="8qu-o6-zii"/>
-        <segue reference="qa0-on-Vv7"/>
+        <segue reference="leu-MS-ZB7"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
