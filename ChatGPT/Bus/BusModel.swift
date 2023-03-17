@@ -15,11 +15,11 @@ struct BusModel{
 extension BusModel {
     static func getMock() -> [BusModel]{
         return  [
-            BusModel(title: "gdsglhf", image: "NBPHE_500x500 (1)", url: "https://stackoverflow.com/questions/28894765/uibutton-action-in-table-view-cell"),
-            BusModel(title: "1jkdlllfjdhl dfahlf  jdhlhf", image: "NBPHE_500x500 (1)", url: ""),
-            BusModel(title: "1jkdfgdfgdgdlllfjdhl dfahlf  jdhlhf", image: "NBPHE_500x500 (1)", url: "String"),
-            BusModel(title: "1jkdfgdfgdflllfjdhl dfahlf  jdhlhf", image: "NBPHE_500x500 (1)", url: ""),
-            BusModel(title: "1jkdfgfdglllfjdhl dfahlf  jdhlhf", image: "NBPHE_500x500 (1)", url: "")
+            BusModel(title: "Certified Fraud Examiner (CFE)", image: "cfe", url: "https://stackoverflow.com/questions/28894765/uibutton-action-in-table-view-cell"),
+            BusModel(title: "Financial Modeling & Valuation Analyst FMVA", image: "FMVA", url: "https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/"),
+            BusModel(title: "Talent Management Certification Program", image: "tmcp1", url: "https://instituteod.com/organization-development-certification-programs/talent-management-certified-professional/"),
+            BusModel(title: "Brand Management Certificate Program", image: "Cornell_University_Logo", url: ""),
+            BusModel(title: "Certified Associate in Project Management (CAPM)", image: "capm-600px", url: "https://www.rics.org/training-events/online-training/on-demand/certified-associate-project-management?&cid=PPC%7cGoogle%7cTrainingEventsDSAMENA%7cLowValue%7cDSA%7cAll&gclid=Cj0KCQjwn9CgBhDjARIsAD15h0C6ZZY0-DPecE-ns54YbFwInHa5ylyTcJduGaataix02JwXeAaEesgaAn-CEALw_wcB&gclsrc=aw.ds")
         ]
         
     }
