@@ -21,7 +21,7 @@ var x = ""
 
 var textCV = ""
 
-
+var textImprove = "Improve my cv:  "
 
 class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITextViewDelegate , UIDocumentPickerDelegate {
     
@@ -81,8 +81,6 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
       fileds2.tag = 2
         
         
-        
-        
     }
     
     func retrive(){
@@ -120,7 +118,7 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
       
       
         if (my == false){
-            label2.text = "please choose a file!"
+            label2.text = "اختر الملف!"
             label2.textColor = #colorLiteral(red: 0.662745098, green: 0.1333333333, blue: 0.1176470588, alpha: 1)
            SendBtn2.isEnabled = false
             return (false, "", "")
@@ -270,10 +268,10 @@ retrive()
         SendBtn2.isEnabled = true
         label2.text = urls.first?.lastPathComponent
         label2.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-        var dialogMessage = UIAlertController(title: "Message", message: "file uploaded successfuly", preferredStyle: .alert)
+        var dialogMessage = UIAlertController(title: "رسالة", message: "تم رفع الملف بنجاح", preferredStyle: .alert)
        
                // Create OK button with action handler
-               let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
+               let ok = UIAlertAction(title: "حسنا", style: .default, handler: { (action) -> Void in
                    print("Ok button tapped")
                 })
        
@@ -287,7 +285,7 @@ retrive()
     
     func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
         imp2.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
-        label2.text = "please choose a file!"
+        label2.text = "من فضلك اختر الملف!"
         label2.textColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
         
     }
@@ -329,10 +327,11 @@ retrive()
         
         
         fileds2.text = textCV
-        
+        var tt =  textImprove + textCV
+        print("tt5555",tt)
         Task{
           
-            await send(text: textCV)
+            await send(text: tt)
             print("the responce text is:",responseText)
           resonceLabel2.text = responseText
             
