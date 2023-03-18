@@ -165,7 +165,7 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
     // SendBtn.isEnabled = false
        print("my",my)
         if (my == false){
-                           label2.text = "please choose a file!"
+                           label2.text = "الرجاء ارفاق ملف"
                            label2.textColor = #colorLiteral(red: 0.662745098, green: 0.1333333333, blue: 0.1176470588, alpha: 1)
             SendBtn2.isEnabled = false
                        }
