@@ -15,7 +15,12 @@ class Health: UIViewController,  UITableViewDelegate, UITableViewDataSource  {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        tabBarController?.tabBar.isHidden = false
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        tabBarController?.tabBar.isHidden = false
     }
     
     func setupUI(){
@@ -57,6 +62,11 @@ class Health: UIViewController,  UITableViewDelegate, UITableViewDataSource  {
         let buttonTag = sender.tag
         UIApplication.shared.open(URL(string: healthList[buttonTag].url)! as  URL, options:  [:], completionHandler: nil)
         // open web healthList [sender.tag]
+    }
+    @IBAction func popop(_ sender: Any) {
+        
+        self.dismiss(animated: true)
+        
     }
     
 

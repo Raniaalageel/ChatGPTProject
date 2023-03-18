@@ -65,4 +65,9 @@ class ITViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
         // open web healthList [sender.tag]
     
     }
+    
+    @IBAction func popop(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
 }

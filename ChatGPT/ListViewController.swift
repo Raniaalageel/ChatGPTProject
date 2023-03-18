@@ -29,10 +29,11 @@ class ListViewController: UIViewController
     
     @IBOutlet weak var itbtn: UIButton!
     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBarController?.tabBar.isHidden = false
+        tabBarController?.tabBar.isHidden = false
         bbtn.layer.shadowColor = UIColor.gray.cgColor
         bbtn.layer.shadowOpacity = 1.0
         bbtn.layer.shadowOffset = CGSize(width: 3, height: 3)
