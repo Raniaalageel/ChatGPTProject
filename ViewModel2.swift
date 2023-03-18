@@ -44,7 +44,7 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
     //[MessageRow] = []
     var inputMessage: String = ""
     
-    var api: ChatGPTAPI = ChatGPTAPI(apiKey: "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")
+    var api: ChatGPTAPI = ChatGPTAPI(apiKey: "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")
     
     @IBOutlet weak var resonceLabel2: UITextView!
     
