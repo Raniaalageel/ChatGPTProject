@@ -254,8 +254,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="متابعة" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" strokeWidth="1">
                                         <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" red="0.30157792570000003" green="0.27870279549999999" blue="0.26666426659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
                                 </buttonConfiguration>
@@ -655,10 +656,10 @@
             </objects>
             <point key="canvasLocation" x="5134.7826086956529" y="614.0625"/>
         </scene>
-        <!--View Controller-->
+        <!--List View Controller-->
         <scene sceneID="YuC-0l-jHt">
             <objects>
-                <viewController id="zEN-29-Z68" sceneMemberID="viewController">
+                <viewController id="zEN-29-Z68" customClass="ListViewController" customModule="ChatGPT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Alx-uU-z30">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -748,6 +749,12 @@
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="1rO-Eh-aLv"/>
+                    <connections>
+                        <outlet property="bbtn" destination="HAS-L3-LLD" id="3Xs-qt-XMs"/>
+                        <outlet property="engbtn" destination="Eaw-qh-sZI" id="fY0-xi-n9G"/>
+                        <outlet property="helthbtn" destination="pQ8-79-sLk" id="e5e-3h-SD7"/>
+                        <outlet property="itbtn" destination="lgl-Un-VoM" id="sex-g2-sVu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dnh-wz-kNX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1222,7 +1229,7 @@
         <segue reference="F2X-FN-Dvk"/>
         <segue reference="l1W-Rd-Rfr"/>
         <segue reference="VfU-K1-ohA"/>
-        <segue reference="GWO-pw-tfo"/>
+        <segue reference="leu-MS-ZB7"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
