@@ -39,8 +39,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="إنشاء حساب" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <backgroundConfiguration key="background" strokeWidth="2">
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.30157792570000003" green="0.27870279549999999" blue="0.26666426659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
                                 </buttonConfiguration>
@@ -59,8 +60,9 @@
                                     <color key="titleShadowColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <buttonConfiguration key="configuration" style="plain" title="تسجيل الدخول" cornerStyle="large">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" strokeWidth="2">
                                         <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" red="0.30157792570000003" green="0.27870279549999999" blue="0.26666426659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -73,6 +75,10 @@
                                 <rect key="frame" x="-233" y="-118.5" width="880" height="727"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.86886852979999996" green="0.78608900309999996" blue="0.70194512610000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="BWY-sU-6K6">
+                                <rect key="frame" x="42" y="234" width="331" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RSC-kc-DP0"/>
@@ -175,7 +181,7 @@
                                 <color key="tintColor" red="0.86886852979999996" green="0.78608900309999996" blue="0.70194512610000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="انشاء حساب" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmW-uW-ifU">
-                                <rect key="frame" x="224" y="132" width="170" height="43"/>
+                                <rect key="frame" x="155" y="132" width="239" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -192,6 +198,10 @@
                                     <segue destination="Fwp-BT-Unc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="qa0-on-Vv7"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="TXB-R3-fgk">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LDx-vb-wlf"/>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.97647058819999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -291,6 +301,10 @@
                                     <segue destination="Fwp-BT-Unc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="leu-MS-ZB7"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="xJq-6k-1sR">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gzc-S6-vLM"/>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.97647058819999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -465,14 +479,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nxa-Ms-8iO">
-                                <rect key="frame" x="10" y="183" width="384" height="184"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="circlebadge.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Y4p-DR-cy5">
+                                <rect key="frame" x="-250" y="-500" width="880" height="727"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bU3-RB-jsE">
                                 <rect key="frame" x="10" y="516" width="394" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -482,19 +493,29 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yE-yI-5gK">
-                                <rect key="frame" x="0.0" y="375" width="87" height="31"/>
+                                <rect key="frame" x="307" y="215" width="87" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="ارفق ملف"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ارفق الملف" cornerStyle="large">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="importFile2:" destination="8Ue-vn-LMT" eventType="touchUpInside" id="sAE-9Z-6lV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhO-tI-cQc">
-                                <rect key="frame" x="305" y="370" width="89" height="31"/>
+                                <rect key="frame" x="163" y="215" width="89" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="تثبيت الملف"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ثبت الملف" cornerStyle="large">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="sendPressed2:" destination="8Ue-vn-LMT" eventType="touchUpInside" id="lZD-Hv-WuY"/>
                                 </connections>
@@ -507,24 +528,43 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AzN-KJ-NJb">
-                                <rect key="frame" x="289" y="144" width="105" height="31"/>
+                                <rect key="frame" x="20" y="215" width="89" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="ضبّط" cornerStyle="large">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.78823530669999997" green="0.67450982329999998" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="funcButton2:" destination="8Ue-vn-LMT" eventType="touchUpInside" id="sWE-Ha-Voa"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="vRk-OP-cIZ">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chat GPT" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNM-wW-p4A">
+                                <rect key="frame" x="93" y="93" width="301" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nxa-Ms-8iO">
+                                <rect key="frame" x="26" y="271" width="362" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eyd-aM-b7v"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.97647058959999999" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="circle" id="FJH-nv-WHm">
+                    <tabBarItem key="tabBarItem" title="" image="CHECKmyCV" id="FJH-nv-WHm">
                         <inset key="imageInsets" minX="0.0" minY="-40" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                     <connections>
@@ -553,8 +593,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الحساب الشخصي" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsU-yI-z2r">
-                                <rect key="frame" x="160" y="157.5" width="241" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الحساب الشخصي" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsU-yI-z2r">
+                                <rect key="frame" x="100" y="158" width="301" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -601,6 +641,10 @@
                                     <segue destination="Fwp-BT-Unc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="GWO-pw-tfo"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="Hcu-gs-3RH">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xuA-kk-jcx"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -609,7 +653,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7JW-Kf-l8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5134.7826086956529" y="614.73214285714278"/>
+            <point key="canvasLocation" x="5134.7826086956529" y="614.0625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YuC-0l-jHt">
@@ -624,8 +668,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="rY2-Gv-jSU">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="طور نفسك" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agi-X0-wf9">
-                                <rect key="frame" x="250" y="143.5" width="144" height="43"/>
+                                <rect key="frame" x="146" y="144" width="248" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -635,18 +683,12 @@
                                 <rect key="frame" x="221" y="386" width="147" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" cornerStyle="small">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <buttonConfiguration key="configuration" style="plain" title="الصحة" cornerStyle="small">
+                                    <backgroundConfiguration key="background" strokeWidth="1">
+                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" red="0.30157792570000003" green="0.27870279549999999" blue="0.26666426659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="الصحة">
-                                            <attributes>
-                                                <font key="NSFont" size="24" name="GeezaPro"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -657,41 +699,28 @@
                                 <rect key="frame" x="47" y="386" width="147" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" cornerStyle="small">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <buttonConfiguration key="configuration" style="plain" title="إدارة الأعمال" cornerStyle="small">
+                                    <backgroundConfiguration key="background" strokeWidth="1">
+                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" red="0.30157792570000003" green="0.27870279549999999" blue="0.26666426659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="إدارة الأعمال">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="24" name="GeezaPro"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="U8q-q2-vG2" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="F2X-FN-Dvk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaw-qh-sZI">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaw-qh-sZI">
                                 <rect key="frame" x="47" y="553" width="147" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" cornerStyle="small">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <buttonConfiguration key="configuration" style="plain" title="الهندسة" cornerStyle="small">
+                                    <backgroundConfiguration key="background" strokeWidth="1">
+                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" red="0.30157792570000003" green="0.27870279549999999" blue="0.26666426659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="الهندسة">
-                                            <attributes>
-                                                <font key="NSFont" size="24" name="GeezaPro"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -702,18 +731,12 @@
                                 <rect key="frame" x="221" y="553" width="147" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" cornerStyle="small">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <buttonConfiguration key="configuration" style="plain" title="تقنية المعلومات" cornerStyle="small">
+                                    <backgroundConfiguration key="background" strokeWidth="1">
+                                        <color key="backgroundColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" red="0.30157792570000003" green="0.27870279549999999" blue="0.26666426659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="تقنية المعلومات">
-                                            <attributes>
-                                                <font key="NSFont" size="24" name="GeezaPro"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -737,7 +760,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RYW-fx-goQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.80982190369999996" green="0.67035287619999995" blue="0.53653705119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88864833119999997" green="0.82130175829999996" blue="0.74116206169999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.88479846719999999" green="0.78416281939999999" blue="0.68841654060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="selectedImageTintColor" systemColor="systemBrownColor"/>
                     </tabBar>
@@ -834,7 +857,7 @@
                                 <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الصحة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUr-6u-c6V">
-                                <rect key="frame" x="302" y="137.5" width="92" height="43"/>
+                                <rect key="frame" x="187" y="138" width="207" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -867,6 +890,10 @@
                                     <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="UKY-xi-7O8"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="wsW-aR-Pih">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCf-te-ieG"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -918,7 +945,7 @@
                                 <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ادارة  الأعمال" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gaj-Ro-AjA">
-                                <rect key="frame" x="220" y="137.5" width="174" height="43"/>
+                                <rect key="frame" x="124" y="138" width="270" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -951,6 +978,10 @@
                                     <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="VfU-K1-ohA"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="Rqv-sF-fo7">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fco-m9-L9r"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1002,7 +1033,7 @@
                                 <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تقنية المعلومات" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nli-Ql-END">
-                                <rect key="frame" x="179" y="137.5" width="215" height="43"/>
+                                <rect key="frame" x="134" y="138" width="260" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1035,6 +1066,10 @@
                                     <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="wX4-x8-cK1"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="vgg-Jh-2mb">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Kw-Pa-stp"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1068,7 +1103,7 @@
                                 <color key="tintColor" red="0.89411764709999997" green="0.78823529410000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الهندسة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tA-rv-t5n">
-                                <rect key="frame" x="285" y="137.5" width="109" height="43"/>
+                                <rect key="frame" x="177" y="138" width="217" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1101,6 +1136,10 @@
                                     <segue destination="zEN-29-Z68" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="8qu-o6-zii"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nobg" translatesAutoresizingMaskIntoConstraints="NO" id="Afq-1T-3LT">
+                                <rect key="frame" x="124" y="32" width="167" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uu9-jt-GMA"/>
                         <color key="backgroundColor" red="0.98414033649999999" green="0.97649174930000004" blue="0.94757920500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1180,17 +1219,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9Gl-Sy-2g5"/>
-        <segue reference="FLL-Cj-iGm"/>
-        <segue reference="8qu-o6-zii"/>
-        <segue reference="qa0-on-Vv7"/>
+        <segue reference="F2X-FN-Dvk"/>
+        <segue reference="l1W-Rd-Rfr"/>
+        <segue reference="VfU-K1-ohA"/>
+        <segue reference="GWO-pw-tfo"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="CHECKmyCV" width="75.5" height="76"/>
         <image name="arrow.left" catalog="system" width="128" height="95"/>
-        <image name="circle" width="113.5" height="99.5"/>
         <image name="circlebadge.fill" catalog="system" width="128" height="122"/>
         <image name="newspaper" catalog="system" width="128" height="111"/>
+        <image name="nobg" width="310" height="121"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="109"/>
         <systemColor name="labelColor">

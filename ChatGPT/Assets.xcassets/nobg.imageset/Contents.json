@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "nobg.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "CHECKmyCV.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
