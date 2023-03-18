@@ -170,12 +170,14 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
             SendBtn2.isEnabled = false
                        }
         areYouSure()
+       
 retrive()
         
     }
     
     
     func areYouSure () {
+        
         var sure = false
             let res = self.isValid()
             if res.0 == false {
@@ -227,6 +229,17 @@ retrive()
                             }else {
                                 
                                 print("done")
+                                var dialogMessage = UIAlertController(title: "رسالة", message: "تم تثبيت الملف", preferredStyle: .alert)
+                               
+                                       // Create OK button with action handler
+                                       let ok = UIAlertAction(title: "حسنا", style: .default, handler: { (action) -> Void in
+                                           print("Ok button tapped")
+                                        })
+                               
+                                       //Add OK button to a dialog message
+                                       dialogMessage.addAction(ok)
+                                       // Present Alert to
+                                       self.present(dialogMessage, animated: true, completion: nil)
                      }
                     
                    
@@ -270,7 +283,7 @@ retrive()
         print("inside doucoment ")
         fileURL = urls.first
         print("inside doucoment fileURL" , fileURL)
-        imp2.backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
+     //   imp2.backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
         my = true
         SendBtn2.isEnabled = true
         label2.text = urls.first?.lastPathComponent
@@ -291,7 +304,7 @@ retrive()
     }
     
     func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
-        imp2.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        //imp2.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         label2.text = "من فضلك اختر الملف!"
         label2.textColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
         
