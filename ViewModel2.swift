@@ -78,7 +78,7 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
     override func viewDidLoad() {
         super.viewDidLoad()
         print("helloo")
-        btn.image = UIImage(named: "nobg")
+        //btn.image = UIImage(named: "nobg")
         fileds2.layer.borderColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
         fileds2.layer.borderWidth = 1.0
         fileds2.layer.cornerRadius = 5

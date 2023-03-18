@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "CHECKmyCV.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "CHECKmyCV.png",
+      "filename" : "CHECKmyCV-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "CHECKmyCV-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1226,7 +1226,7 @@
         <!--Navigation Controller-->
         <scene sceneID="lQw-EN-VF4">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4lm-Hy-l20" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="4lm-Hy-l20" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="newspaper" catalog="system" id="RPx-3h-CEi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IHV-Ft-D2X">
@@ -1235,6 +1235,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="brY-QQ-deJ">
+                        <rect key="frame" x="0.0" y="764" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
@@ -1247,7 +1248,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zd2-g1-dzs"/>
         <segue reference="l1W-Rd-Rfr"/>
         <segue reference="7Qn-oF-TdZ"/>
         <segue reference="GWO-pw-tfo"/>
