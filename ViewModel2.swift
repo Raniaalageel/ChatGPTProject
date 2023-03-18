@@ -34,13 +34,17 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
     
     @IBOutlet weak var sentButton2: UIButton!
     
+    
+    @IBOutlet weak var btn: UITabBarItem!
+    
+    
     var isInteractingWithChatGPT:Bool = false
     // var MessageRow = ""
     var messages = ""
     //[MessageRow] = []
     var inputMessage: String = ""
     
-    var api: ChatGPTAPI = ChatGPTAPI(apiKey: "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")
+    var api: ChatGPTAPI = ChatGPTAPI(apiKey: "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")
     
     @IBOutlet weak var resonceLabel2: UITextView!
     
@@ -74,13 +78,16 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
     override func viewDidLoad() {
         super.viewDidLoad()
         print("helloo")
-        
-        fileds2.layer.borderColor = #colorLiteral(red: 0.8110222816, green: 0.6691601276, blue: 0.5357432365, alpha: 1)
+        btn.image = UIImage(named: "nobg")
+        fileds2.layer.borderColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
         fileds2.layer.borderWidth = 1.0
         fileds2.layer.cornerRadius = 5
       fileds2.tag = 2
-        
-        
+        fileds2.isEditable = false
+        fileds2.isSelectable = false
+        fileds2.backgroundColor = #colorLiteral(red: 0.8954829977, green: 0.8954829977, blue: 0.8954829977, alpha: 1)
+        resonceLabel2.backgroundColor = #colorLiteral(red: 0.8954829977, green: 0.8954829977, blue: 0.8954829977, alpha: 1)
+        resonceLabel2.layer.borderColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
     }
     
     func retrive(){
@@ -302,7 +309,12 @@ retrive()
     
     @IBAction func funcButton2(_ sender: UIButton) {
         //صحح لي
-       
+        fileds2.isEditable = true
+        fileds2.isSelectable = true
+        fileds2.backgroundColor = #colorLiteral(red: 0.9709306197, green: 0.8816879966, blue: 0.7961863367, alpha: 1)
+        fileds2.layer.borderColor = #colorLiteral(red: 0.6065328579, green: 0.5063558833, blue: 0.4176468689, alpha: 1)
+        resonceLabel2.backgroundColor = #colorLiteral(red: 0.9709306197, green: 0.8816879966, blue: 0.7961863367, alpha: 1)
+        resonceLabel2.layer.borderColor = #colorLiteral(red: 0.6065328579, green: 0.5063558833, blue: 0.4176468689, alpha: 1)
         
         if let pdf = PDFDocument(url: urll!) {
             let pageCount = pdf.pageCount
