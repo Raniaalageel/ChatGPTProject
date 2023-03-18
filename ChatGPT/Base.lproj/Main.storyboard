@@ -480,7 +480,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bU3-RB-jsE">
-                                <rect key="frame" x="20" y="530" width="374" height="267"/>
+                                <rect key="frame" x="10" y="516" width="394" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -491,7 +491,7 @@
                                 <rect key="frame" x="0.0" y="375" width="87" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ارفق ملف"/>
                                 <connections>
                                     <action selector="importFile2:" destination="8Ue-vn-LMT" eventType="touchUpInside" id="sAE-9Z-6lV"/>
                                 </connections>
@@ -500,13 +500,13 @@
                                 <rect key="frame" x="305" y="370" width="89" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="تثبيت الملف"/>
                                 <connections>
                                     <action selector="sendPressed2:" destination="8Ue-vn-LMT" eventType="touchUpInside" id="lZD-Hv-WuY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQC-4e-8Z5">
-                                <rect key="frame" x="95" y="380" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQC-4e-8Z5">
+                                <rect key="frame" x="95" y="380" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -516,14 +516,19 @@
                                 <rect key="frame" x="289" y="144" width="105" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ضبّط" cornerStyle="large">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.78823530669999997" green="0.67450982329999998" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="funcButton2:" destination="8Ue-vn-LMT" eventType="touchUpInside" id="sWE-Ha-Voa"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eyd-aM-b7v"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98431372640000003" green="0.97647058959999999" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="circle" id="FJH-nv-WHm">
                         <inset key="imageInsets" minX="0.0" minY="-40" maxX="0.0" maxY="0.0"/>
@@ -1181,9 +1186,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="l1W-Rd-Rfr"/>
+        <segue reference="FLL-Cj-iGm"/>
         <segue reference="8qu-o6-zii"/>
-        <segue reference="leu-MS-ZB7"/>
+        <segue reference="qa0-on-Vv7"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>

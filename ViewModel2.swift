@@ -75,7 +75,7 @@ class ViewModel2: UIViewController,ObservableObject, UITextFieldDelegate , UITex
         super.viewDidLoad()
         print("helloo")
         
-        fileds2.layer.borderColor = #colorLiteral(red: 0.7254902124, green: 0.4784313738, blue: 0.09803921729, alpha: 1)
+        fileds2.layer.borderColor = #colorLiteral(red: 0.8110222816, green: 0.6691601276, blue: 0.5357432365, alpha: 1)
         fileds2.layer.borderWidth = 1.0
         fileds2.layer.cornerRadius = 5
       fileds2.tag = 2
